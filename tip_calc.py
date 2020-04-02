@@ -1,6 +1,7 @@
 
 # Asks user to input their intial bill.
-bill = int(input('What was your total bill amount?: '))
+bill = input('What was your total bill amount?: ')
+bill = float(bill)
 
 # Creates an i variable and sets it to false to use in a while loop.
 i = False
